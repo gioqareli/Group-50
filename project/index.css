@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+   
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.image-box {
+    flex: 1;
+    background: url('greece.webp') no-repeat center/cover;
+    height: 450px;
+}
+
+.form-box {
+    flex: 1;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    text-align: center;
+
+}
+
+h2 {
+
+    color: #333;
+
+}
+.form{
+    background-color: rgb(255, 255, 255);
+}
+.form-box input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: rgb(0, 0, 0);
+}
+
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-box button:hover {
+    background: darkgreen;
+}
+
+
+

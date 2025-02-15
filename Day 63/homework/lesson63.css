@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 60% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-header{
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    gap: 20px;
+    font-size: 11.14px;
+    font-weight: 500;
+    color: #404040;
+
+}
+.nav-bar{
+    display: flex;
+    gap: 20px;
+}
+.nav-bar button{
+    
+}
+
+
