@@ -1,102 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-  padding: 0;
-  margin: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body {
-    background-color: #f9f9f9;
-    color: #333;
-    display: flex;
-    gap: 0px;
-  }
-.maindiv{
-  width: 1440px;
-  height: 56px;
-  border: 1px solid gray;
-  box-shadow: 0px 5px 5px gray;
+body{
+    font-family: "roboto" , serif;
 }
-  header {
+header{
+    pad: 20px 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #eee;
-  }
-
-  header a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 1rem;
-    font-size: 1rem;
-  }
-
-  header a:hover {
-    text-decoration: underline;
-  }
-
-  .thalby {
-    width: 80px;
-    height: 25px ;
-    margin-top: 16px;
-    
-  }
-  .frame1{
-    width: 36px;
-    height: 20px;
-    margin-top: 2.5px;
-    margin-left: 379px;
-  }
-  .frame2{
-    width: 21px;
-    height: 40px;
-    margin-top: -7.5px;
-    margin-left: 415px;
-
-  }
-  .frame3{
-    width: 36px;
-    height: 42px;
-    margin-top: -8.5px;
-    margin-left: 462px;
-  }
-  .a1{
-    width: 40;
-    height: 27;
-    top: -15px;
-  }
-  .a2{
-    width: 89;
-    height: 27;
-    top: -15px;
-  }
-  .a3{
-    width: 125;
-    height: 27;
-    top: -15px;    
-  }
-  .a4{
-    width: 57;
-    height: 27;
-    top: -15px;    
-  }
-  .secondiv{
-    width: 544px;
-    height: 374.1875px;
-
-  }
-  .main{
+}
+nav ul{
     display: flex;
-    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: 700;
+}
+.icon{
+    display: felx;
     align-items: center;
-  }
-  .h1{
-    width: 534px;
-    height: 140px;
-    left: 24px;
-
-  }
-  .firstsection{
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.section-header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 30%;
+}
+.hero{
+    display: flex;
     align-items: center;
-  }
-
-
+    justify-content: center;
+    background-color: #fff;
+}
+.hero h1{
+    font-size: 60px;
+    max-width: 534px;
+}
+.hero p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    justify-content: start;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.thalby{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
