@@ -50,7 +50,7 @@ nav ul{
     text-align: center;
 }
 .hero{
-    position: absolute;
+    /* position: absolute; */
     padding: 66.82px 100.23px 66.82px 100.23px; 
     background-color: #f5f7f5;
     display: flex;
@@ -95,10 +95,44 @@ nav ul{
     display: flex;
     gap: 5.57px;
     bottom: 10px;
+    position: absolute;
 }
-.ball div{
-    width: 6.96;
-    height: 6.96;
-    background-color: #4CAF4F;
+.ball1{
+    margin-top: 457.32px;
+    margin-left: 485.16px;
     border-radius: 50%;
+    background-color: #4CAF4F;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 27.84px;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.client-text{
+    gap: 5.57px;
+    width: Fixed (772.64px);
+    height: Hug(53.57px);
+}
+.client-text h2{
+    width: 772.64px;
+    Height: 31px;
+}
+.client-text p{
+    width: 772.64px;
+    Height: 31px;   
+}
+.div-container{
+    width: Fill (801.87px);
+    height: Fixed (68.21px);
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
 }
