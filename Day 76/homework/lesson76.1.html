@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ქაუნტერი</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .counter-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 20px 0;
+        }
+        button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="counter-container">
+        <h1 id="counter">0</h1>
+        <button id="increment">+1</button>
+        <button id="decrement">-1</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script>
+        let count = 0;
+
+        const counterElement = document.getElementById("counter");
+        const incrementButton = document.getElementById("increment");
+        const decrementButton = document.getElementById("decrement");
+        const resetButton = document.getElementById("reset");
+
+
+        incrementButton.onclick = () => {
+            count++;
+            counterElement.textContent = count;
+        };
+
+
+        decrementButton.onclick = () => {
+            count--;
+            counterElement.textContent = count;
+        };
+
+        resetButton.onclick = () => {
+            count = 0;
+            counterElement.textContent = count;
+        };
+    </script>
+
+</body>
+</html>
