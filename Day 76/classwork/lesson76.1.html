@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dynamic Content</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Welcome!</h1>
+    <p id="message">Click the button to change the content.</p>
+    <button onclick="changeContent()">Click Me</button>
+
+    <script>
+        function changeContent() {
+            document.getElementById('header').innerText = "Content Changed!";
+            document.getElementById('message').innerText = "The content and styles have been updated.";
+            document.getElementById('header').style.color = "red";
+            document.getElementById('message').style.color = "purple";
+        }
+    </script>
+</body>
+</html>
